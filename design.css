@@ -209,7 +209,7 @@ nav ul li a:hover{
         background-image: linear-gradient(#031540 ,#00abf0, white);
         background-repeat: no-repeat;
         -webkit-background-clip: text;  
-        background-position: -350px 0;
+        background-position: -650px 0;
         opacity: 0;
         animation: slideRight 1s ease forwards,animateText 6s linear infinite;   
         animation-delay: 1s;  
@@ -217,7 +217,7 @@ nav ul li a:hover{
     
     @keyframes animateText{
         0%, 95%, 100%{
-            background-position: -350px 0;
+            background-position: -650px 0;
         }
         65%,85%{
             background-position: 0,0;
@@ -702,7 +702,7 @@ nav .fa-solid{
     }
 
     .home-img img {
-        bottom: 60px;
+        bottom: 500px;
         position: relative;
         left: -12px;
         max-width: 300px;
