@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <title>My Portfolio Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="design.css">
+        <script src="https://kit.fontawesome.com/4a9d01e598.js" crossorigin="anonymous"></script>
+        
+
+        
+
+    </head>
+    <body class="no-resize">
+        <div id="header">
+            <div class="container">
+            
+                <nav class="topnav">  
+                    <a href="#" class="logo">M<span>J</span>C.Portfolio</a>
+                    
+                        <ul id="sidemenu">
+                           <input type="text" placeholder="Search.."> 
+                            <li><a href="#header" style="--i:1;" class="active">Home</a></li>
+                            <li><a href="#about" style="--i:2;">About</a></li>
+                            <li><a href="#services" style="--i:3;">Services</a></li>
+                            <li><a href="#portfolio" style="--i:4;">Portfolio</a></li>
+                            <li><a href="#contact" style="--i:5;">Contact</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>            
+                        </ul>
+                            <i class="fa-solid fa-bars" onclick="openmenu()"></i>    
+                </nav>   
+                        
+            </div>
+        </div>
+        <section class="home">
+            <div class="home-img">
+                <img src="images/gwapo.png" alt="">
+        </div>
+        
+
+            <div class="home-content">
+                <h1>Hi, I'm <span>Marc Joseph</span> Cagalitan</h1>
+                <h3>Computer Engineering</h3>
+                <p>CITE: We do Ordinary Things, extra-ordinarily well!
+                   </p>
+                     <div class="home-sci">
+                        <a href="https://www.facebook.com/" alt=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                     </div>
+
+                     <a href="#" class="btn1">Download CV</a>
+                     
+            </div>
+        
+    
+       
+            
+        </section><hr>
+        
+    
+      <!-----------------------------------------------------about------------------------------------------------------>
+        <section class="ABOUT">
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mj.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Aliquid facere expedita reprehenderit beatae hic atque,
+                          tenetur magni modi at! Quo deserunt quidem voluptatibus
+                           delectus incidunt voluptatem eius distinctio adipisci autem!
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Aliquid facere expedita reprehenderit beatae hic atque,
+                            tenetur magni modi at! Quo deserunt quidem voluptatibus
+                             delectus incidunt voluptatem eius distinctio adipisci autem!</p>
+                             <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>COMPUTER ENGINEER</span><br>Hardware and Sofware application</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Creating applications on Andriod/IOS</li>
+                                </ul>
+                             </div>
+
+                             <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>COMPUTER ENGINEER</span><br>Hardware and Sofware application</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                    <li><span>App Development</span><br>Creating applications on Andriod/IOS</li>
+                                </ul>
+                             </div>
+
+                             <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Elementary School</span><br>Limokon Elementary School</li>
+                                    <li><span>High School</span><br>Dimiao National HighSchool(General Academic Strand)</li>
+                                    <li><span>College</span><br>CITE Technical Institute, Inc.(Computer Engineering Technology)</li>
+                                </ul>
+                             </div>
+                    
+                </div>
+            </div>
+        </div>
+       </div>
+    </section><hr>
+    
+<!-------------------------------------------------------------- SERVICES --------------------------------------------------------------------->
+       <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Software Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit
+                            Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Deleniti labore sed, enim excepturi id itaque velit</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+       </div><hr>
+       
+
+       <!----------------------------------------------------------------Portfolio--------------------------------------------------------------------->
+       <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work   </h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/online.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Quaerat nulla iusto, in a, dolore asperiores alias officiis
+                                  inventore earum dicta pariatur, eaque tenetur cupiditate natus
+                                   dolorum nihil consequatur ratione nam.</p>
+                                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/music.jpg">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Quaerat nulla iusto, in a, dolore asperiores alias officiis
+                                  inventore earum dicta pariatur, eaque tenetur cupiditate natus
+                                   dolorum nihil consequatur ratione nam.</p>
+                                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/shop.jpg">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Quaerat nulla iusto, in a, dolore asperiores alias officiis
+                                  inventore earum dicta pariatur, eaque tenetur cupiditate natus
+                                   dolorum nihil consequatur ratione nam.</p>
+                                   <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/03112002mjc/Final-Project.git" class="btn">See more...</a>
+            </div>
+
+       </div><hr>
+       <!---------------------------------------------CONTACT------------------------------------------------------------------------->
+
+       <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> cagalitanmarcjoseph@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 09460104027</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i> Ma Rc</a><br>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i> im_marc</a><br>
+                            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i> MjCagalitan</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email"  placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; Marc Joseph Cagalitan. Thanks for visiting my site!<i class="fa-solid fa-heart"></i></p>
+            </div>
+       </div>
+
+
+
+
+       <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+       </script>
+
+       <script>
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemen.style.right = "0"
+        }
+
+        function closemenu(){
+            sidemen.style.right = "-200px"
+        }
+       </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIxjtD0AwgVeuRceATAgmFnRezvw_a2cHx5HfZkR4FCZWlXcpjC8wz9mby63IV65KQjg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message successfully sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+       
+    </body>
+
+</html>
