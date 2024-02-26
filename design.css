@@ -809,6 +809,7 @@ nav .fa-solid{
         position: relative;
         top: -30px;
         right: -15px;
+        text-align: center;
         display: block;
         
     }
