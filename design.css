@@ -693,9 +693,9 @@ nav .fa-solid{
     }
 
     .home-img img {
-        bottom: 20px;
+        bottom: 65px;
         position: relative;
-        left: -5px;
+        left: -1px;
         max-width: 300px;
         border-radius: 49%;
     }
